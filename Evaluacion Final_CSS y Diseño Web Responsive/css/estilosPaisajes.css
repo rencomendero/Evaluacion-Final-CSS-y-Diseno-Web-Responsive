@@ -1,0 +1,212 @@
+*{
+  background-color: black;
+  font-family: Dancing Script;
+}
+
+.contenido{
+  margin: auto;
+  max-width: 900px;
+}
+
+header{
+  display: flex;
+  flex-flow: column;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 0 30px 20px;
+  color: white;
+  background: #5b7989;
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+.menu{
+  display: flex;
+  flex-flow: row;
+  padding: 15px 0px 15px 25px;
+  background-color: #5b7989;
+}
+
+#titGeneral{
+  font-size: 36px;
+  background-color: #5b7989;
+}
+
+.columnaListaMenu a{
+  font-size: 18px;
+  color: white;
+  background-color: #5b7989;
+}
+
+.menutitulo{
+  width: 70%;
+  background-color: #5b7989;
+}
+
+.menulistaitems {
+  display: flex;
+  flex-flow: row;
+  background-color: #5b7989;
+  padding-top: 15px;
+}
+
+.columnaListaMenu{
+  padding: 0 10px 0 10px;
+  background-color: #5b7989;
+}
+
+#paisajes{
+  text-decoration: none;
+}
+
+.menu ul{
+  background: #5b7989;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  margin-right: 570px;
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul li{
+  background: #5b7989;
+  float: left;
+}
+
+.menu ul li a {
+  padding: 10px;
+  background: #5b7989;
+  color: white;
+  font-size: 20px;
+}
+
+.seccion1, .seccion2{
+  margin-top: -22px;
+  display: flex;
+  flex-flow: row;
+}
+
+.imagenSecundaria{
+  padding: 25px 20px 25px 20px;
+  background-color: #d5c75f;
+}
+
+.paisaje1, .paisaje2, .paisaje3, .paisaje4, .paisaje5, .paisaje6{
+  background-color: #d5c75f;
+  width: 100%;
+}
+
+#secundaria1, #secundaria2, #secundaria3, #secundaria4, #secundaria5, #secundaria6{
+  box-shadow: 2px 2px 2px #02010a;
+}
+
+#secundaria1{
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+#secundaria2, #secundaria4, #secundaria6{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#secundaria3{
+  filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+}
+
+.pie_de_pagina{
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 0px 0px 10px 10px;
+  padding: 15px 0px 15px 45px;
+  background-color: #C6d5c5;
+}
+
+.columna1, .columna2, .columna3, .columna4{
+  background-color: #C6d5c5;
+  width: 25%;
+}
+
+#correo{
+  text-decoration: underline;
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #C6d5c5;
+}
+
+#titulo1, #titulo2, #titulo3, #titulo4{
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: solid;
+}
+
+.correo{
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .columna1 {
+    width: 100%;
+    order: 1;
+  }
+  .columna2 {
+    width: 100%;
+    order: 2;
+  }
+  .columna3 {
+    width: 100%;
+    order: 3;
+  }
+  .columna4 {
+    width: 100%;
+    order: 4;
+  }
+  .seccion1, .seccion2{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .paisaje1 {
+    width: 100%;
+    order: 1;
+  }
+  .paisaje2 {
+    width: 100%;
+    order: 2;
+  }
+  .paisaje3 {
+    width: 100%;
+    order: 3;
+  }
+  .paisaje4 {
+    width: 100%;
+    order: 4;
+  }
+  .paisaje5 {
+    width: 100%;
+    order: 5;
+  }
+  .paisaje6 {
+    width: 100%;
+    order: 6;
+  }
+  .menu{
+    flex-flow: column;
+    width: 90%;
+  }
+  .menutitulo{
+    width: 100%;
+    text-align: center;
+  }
+  .columnaListaMenu{
+    width: 50%;
+    padding: 0;
+    text-align: center;
+  }
+}
